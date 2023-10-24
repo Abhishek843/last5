@@ -1,4 +1,5 @@
 // Get references to the login and signup buttons from the HTML document.
+const HOST = 'http://' + window.location.host;
 const loginButton = document.getElementById("signInBtn");
 const signupButton = document.getElementById("signUpBtn");
 

@@ -1,4 +1,5 @@
 // Clear the console (not related to the code's functionality but useful for debugging)
+const HOST = 'http://' + window.location.host;
 console.clear();
 
 // Get references to the login and signup buttons from the HTML document.
