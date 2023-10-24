@@ -1,5 +1,5 @@
 // Get references to the login and signup buttons from the HTML document.
-const HOST = 'http://' + window.location.host;
+
 const loginButton = document.getElementById("signInBtn");
 const signupButton = document.getElementById("signUpBtn");
 
@@ -20,7 +20,7 @@ function login() {
 
   // Send a POST request to the server to log in the user.
   axios
-    .post("http://localhost:3200/login", loginDetails)
+    .post("http://23.21.28.1:3200/login", loginDetails)
     .then((result) => {
       // Display a success message and store the token in local storage.
       alert(result.data.message);
