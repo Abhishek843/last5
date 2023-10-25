@@ -1,4 +1,3 @@
-const HOST = 'http://' + window.location.host;
 
 const form = document.getElementById('user-form');
 const password1Input = document.getElementById('password1');
